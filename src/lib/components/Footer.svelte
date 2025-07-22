@@ -31,17 +31,6 @@
             class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center"
         >
             <p class="text-sm">© 2024 TheUnc Project. All rights reserved.</p>
-            <div class="flex space-x-6 mt-4 md:mt-0">
-                <a
-                    href="#privacy"
-                    class="text-sm hover:text-white transition-colors"
-                    >Privacy</a
-                >
-                <a
-                    href="#terms"
-                    class="text-sm hover:text-white transition-colors">Terms</a
-                >
-            </div>
         </div>
     </div>
 </footer>

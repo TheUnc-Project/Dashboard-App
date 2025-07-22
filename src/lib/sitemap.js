@@ -26,9 +26,7 @@ function generateSitemap() {
 
     // Add main pages
     const mainPages = [
-        { url: '/', priority: '1.0', changefreq: 'monthly' },
-        { url: '/projects', priority: '0.8', changefreq: 'monthly' },
-        { url: '/blog', priority: '0.8', changefreq: 'weekly' },
+        { url: '/', priority: '1.0', changefreq: 'monthly' }
     ];
 
     mainPages.forEach(page => {
