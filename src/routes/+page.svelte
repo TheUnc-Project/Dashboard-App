@@ -1,5 +1,5 @@
 <script>
-    import Login from "$lib/components/Login.svelte";
+    import Home from "$lib/components/Home.svelte";
 </script>
 
 <svelte:head>
@@ -18,5 +18,5 @@
 </svelte:head>
 
 <div class="flex flex-col">
-    <Login />
+    <Home />
 </div>

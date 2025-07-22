@@ -1,14 +1,15 @@
 <script>
     import "../app.css";
-    let { children } = $props();
+    import Header from "$lib/components/Header.svelte";
+    import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<div class="min-h-screen bg-[#181818] text-white relative">
-    <div class="min-h-screen">
-        <main class="container mx-auto px-4 min-h-screen">
-            {@render children()}
-        </main>
-    </div>
+<div class="min-h-screen bg-white">
+    <Header />
+    <main>
+        <slot />
+    </main>
+    <Footer />
 </div>
 
 <style>
