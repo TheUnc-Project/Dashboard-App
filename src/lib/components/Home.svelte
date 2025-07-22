@@ -28,7 +28,8 @@
                 growth.
             </p>
             <div class="flex justify-center space-x-4">
-                <button
+                <a
+                    href="/login"
                     class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 flex items-center"
                 >
                     Login to Dashboard
@@ -44,7 +45,7 @@
                             clip-rule="evenodd"
                         />
                     </svg>
-                </button>
+                </a>
             </div>
         </div>
 
